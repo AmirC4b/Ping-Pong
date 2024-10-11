@@ -23,7 +23,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Game board styles */
 #gameBoard {
     position: relative;
     width: 800px;
