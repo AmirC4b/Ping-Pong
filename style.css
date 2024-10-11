@@ -1,0 +1,58 @@
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+/* Scoreboard styles */
+#scoreBoard {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Game board styles */
+#gameBoard {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background-color: #333;
+    border: 3px solid white;
+}
+
+/* Paddle styles */
+.paddle {
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: white;
+}
+
+#paddleLeft {
+    left: 0;
+}
+
+#paddleRight {
+    right: 0;
+}
+
+/* Ball styles */
+#ball {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
