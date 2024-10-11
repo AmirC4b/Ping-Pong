@@ -1,5 +1,5 @@
 
-/* General styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     background-color: black;
 }
 
-/* Scoreboard styles */
+
 #scoreBoard {
     color: white;
     font-size: 24px;
@@ -32,7 +32,7 @@ body {
     border: 3px solid white;
 }
 
-/* Paddle styles */
+
 .paddle {
     position: absolute;
     width: 10px;
@@ -48,7 +48,7 @@ body {
     right: 0;
 }
 
-/* Ball styles */
+
 #ball {
     position: absolute;
     width: 15px;
